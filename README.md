@@ -1,6 +1,6 @@
 # Conrad Adventskalender für Raspberry Pi (2016) mit Windows IoT
 
-Ich habe einen Conrad Adventskalender für Raspberry Pi geschenkt bekommen. 😍
+Ich habe einen Conrad Adventskalender für Raspberry Pi geschenkt bekommen. 😍   
 In der Anleitung zum Adventskalender steht im einleitenden Text
 
     Außerdem ist das Windows-Betriebssystem denkbar ungeeiget, mit Elektronik zu kommunizieren.
