@@ -11,3 +11,10 @@ Na das wollen wir doch einmal sehen! 😄 Ich werde versuchen die Schaltungen vo
 * Windows 10 IoT installiert, wie hier beschrieben: https://developer.microsoft.com/de-de/windows/iot/Docs/GetStarted/rpi2/sdcard/insider/getstartedstep1
 * 1. Schaltung aufgebaut
 * Dieses Repository aufgesetzt :smirk:
+
+## Tag 2
+* Ich habe die IoT-Vorlagen von hier heruntergeladen und installiert: https://marketplace.visualstudio.com/items?itemName=MicrosoftIoT.WindowsIoTCoreProjectTemplates
+* Danach habe ich ein neues C#-Projekt mit dem Namen "Tag2" erstellt, wie hier beschrieben: https://developer.microsoft.com/de-de/windows/iot/docs/backgroundapplications
+* Als Nächstes habe ich einen Verweis auf die "Windows IoT Extensions for the UWP" hizugefügt
+    * "Projektmappen-Explorer" > Rechtsklick auf "Verweise" > "Verweis hinzufügen..." > "Universal Windows" > "Erweiterungen" > "Windows IoT Extensions for the UWP" anhanken
+* Zum Schluß habe ich das Microsoft Blink-beispiel verwendet und angepasst, und damit die Aufgabe von Tag 2 mit Windows IoT gelöst :metal: https://developer.microsoft.com/en-us/windows/iot/Samples/HelloBlinkyBackground
