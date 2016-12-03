@@ -18,3 +18,7 @@ Na das wollen wir doch einmal sehen! 😄 Ich werde versuchen die Schaltungen vo
 * Als Nächstes habe ich einen Verweis auf die "Windows IoT Extensions for the UWP" hizugefügt
     * "Projektmappen-Explorer" > Rechtsklick auf "Verweise" > "Verweis hinzufügen..." > "Universal Windows" > "Erweiterungen" > "Windows IoT Extensions for the UWP" anhanken
 * Zum Schluß habe ich das Microsoft Blink-beispiel verwendet und angepasst, und damit die Aufgabe von Tag 2 mit Windows IoT gelöst :metal: https://developer.microsoft.com/en-us/windows/iot/Samples/HelloBlinkyBackground
+
+## Tag 3
+* Neues Projekt "Tag3" erstellt :smirk:
+* Heute gab es eine Farbe mehr im Wechsel. Funktioniert auch! :smile:
