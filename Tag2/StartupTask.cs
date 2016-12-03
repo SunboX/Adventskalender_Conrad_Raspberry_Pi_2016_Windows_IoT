@@ -7,13 +7,10 @@ namespace Tag2
 {
     public sealed class StartupTask : IBackgroundTask
     {
-        private const int LedPinRed = 18;
-        private const int LedPinGreen = 23;
-
-        private GpioPin _pinRed;
-        private GpioPin _pinGreen;
-        private GpioPinValue _pinRedValue;
-        private GpioPinValue _pinGreenValue;
+        private GpioPin _gpio18;
+        private GpioPin _gpio23;
+        private GpioPinValue _gpio18Value;
+        private GpioPinValue _gpio23Value;
 
         public void Run(IBackgroundTaskInstance taskInstance)
         {
@@ -27,45 +24,45 @@ namespace Tag2
 
             if (gpio == null)
             {
-                _pinRed = null;
-                _pinGreen = null;
+                _gpio18 = null;
+                _gpio23 = null;
                 return;
             }
 
-            _pinRed = gpio.OpenPin(LedPinRed);
-            _pinGreen = gpio.OpenPin(LedPinGreen);
+            _gpio18 = gpio.OpenPin(18);
+            _gpio23 = gpio.OpenPin(23);
 
-            if (_pinRed == null || _pinGreen == null)
+            if (_gpio18 == null || _gpio23 == null)
             {
                 return;
             }
 
-            _pinRed.SetDriveMode(GpioPinDriveMode.Output);
-            _pinGreen.SetDriveMode(GpioPinDriveMode.Output);
+            _gpio18.SetDriveMode(GpioPinDriveMode.Output);
+            _gpio23.SetDriveMode(GpioPinDriveMode.Output);
 
             ThreadPoolTimer.CreatePeriodicTimer(TimerOnTick, TimeSpan.FromMilliseconds(500));
         }
 
         private void TimerOnTick(ThreadPoolTimer timer)
         {
-            if (_pinRed == null || _pinGreen == null)
+            if (_gpio18 == null || _gpio23 == null)
             {
                 return;
             }
 
-            if (_pinRedValue == GpioPinValue.High)
+            if (_gpio18Value == GpioPinValue.High)
             {
-                _pinRedValue = GpioPinValue.Low;
-                _pinGreenValue = GpioPinValue.High;
+                _gpio18Value = GpioPinValue.Low;
+                _gpio23Value = GpioPinValue.High;
             }
             else
             {
-                _pinRedValue = GpioPinValue.High;
-                _pinGreenValue = GpioPinValue.Low;
+                _gpio18Value = GpioPinValue.High;
+                _gpio23Value = GpioPinValue.Low;
             }
 
-            _pinRed.Write(_pinRedValue);
-            _pinGreen.Write(_pinGreenValue);
+            _gpio18.Write(_gpio18Value);
+            _gpio23.Write(_gpio23Value);
         }
     }
 }
