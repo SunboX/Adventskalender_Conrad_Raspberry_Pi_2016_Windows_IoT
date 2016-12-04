@@ -22,3 +22,6 @@ Na das wollen wir doch einmal sehen! 😄 Ich werde versuchen die Schaltungen vo
 ## Tag 3
 * Neues Projekt "Tag3" erstellt :smirk:
 * Heute gab es eine Farbe mehr im Wechsel. Funktioniert auch! :smile:
+
+## Tag 4
+* Heute Farbenspiel per Zufall, funktioniert ebenfalls
