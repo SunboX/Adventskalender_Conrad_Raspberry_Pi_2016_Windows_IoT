@@ -25,3 +25,7 @@ Na das wollen wir doch einmal sehen! 😄 Ich werde versuchen die Schaltungen vo
 
 ## Tag 4
 * Heute Farbenspiel per Zufall, funktioniert ebenfalls
+
+## Tag 5
+* Pullup-Wiederstand an GPIO Pin ausgeschalten, wie hier beschrieben: https://developer.microsoft.com/de-de/windows/iot/docs/PinMappingsRPi#gpio-sample
+* Sensorkontakt funktioniert wie im Beispiel
