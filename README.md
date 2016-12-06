@@ -29,3 +29,6 @@ Na das wollen wir doch einmal sehen! 😄 Ich werde versuchen die Schaltungen vo
 ## Tag 5
 * Pullup-Wiederstand an GPIO Pin ausgeschalten, wie hier beschrieben: https://developer.microsoft.com/de-de/windows/iot/docs/PinMappingsRPi#gpio-sample
 * Sensorkontakt funktioniert wie im Beispiel
+
+## Tag 6
+* Heute Sound-Erzeugung. Gestaltet sich leider etwas komplizierter. Morgen gibt es mehr!
