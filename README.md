@@ -31,4 +31,8 @@ Na das wollen wir doch einmal sehen! 😄 Ich werde versuchen die Schaltungen vo
 * Sensorkontakt funktioniert wie im Beispiel
 
 ## Tag 6
-* Heute Sound-Erzeugung. Gestaltet sich leider etwas komplizierter. Morgen gibt es mehr!
+* Heute Sound-Erzeugung
+* Die Compileroption "Unsicheren Code zulassen" muss für den Sound Generator wie hier beschrieben aktiviert werden: https://msdn.microsoft.com/de-de/library/ct597kb0.aspx
+* Die Sound Erzeugung habe ich am Beispiel der GenerateAudioData-Hilfsmethode von hier implementiert: https://msdn.microsoft.com/de-de/windows/uwp/audio-video-camera/audio-graphs
+* Schlussendlich, die Frequenz aller Noten von Wikipedia: https://de.wikipedia.org/wiki/Frequenzen_der_gleichstufigen_Stimmung
+* Sound generierung funktioniert auch mit Windows IoT!
