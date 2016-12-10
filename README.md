@@ -36,3 +36,9 @@ Na das wollen wir doch einmal sehen! 😄 Ich werde versuchen die Schaltungen vo
 * Die Sound Erzeugung habe ich am Beispiel der GenerateAudioData-Hilfsmethode von hier implementiert: https://msdn.microsoft.com/de-de/windows/uwp/audio-video-camera/audio-graphs
 * Schlussendlich, die Frequenz aller Noten von Wikipedia: https://de.wikipedia.org/wiki/Frequenzen_der_gleichstufigen_Stimmung
 * Sound generierung funktioniert auch mit Windows IoT!
+
+## Tag 7
+* Bildschirm besorgt, und wie hier beschrieben den Touch-Support hinzugefügt: https://www.hackster.io/dotMorten/windowsiottouch-44af19
+** Das empfohlene Display von Microsoft war mir etwas zu teuer, erspart aber die Implementation des eigenen Touch-Cotrollers: https://developer.microsoft.com/en-us/windows/iot/docs/hardwarecompatlist#Miscellaneous
+** Alternativ kann man auch ein TV-Gerät und eine Maus anschließen
+* to be continued...
